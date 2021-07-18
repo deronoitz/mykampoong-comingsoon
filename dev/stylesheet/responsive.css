@@ -3,6 +3,11 @@
     max-width: 100%;
     padding: 0 40px;
   }
+
+  .image iframe {
+    width: 600px;
+    height: 332px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,21 +20,49 @@
   h1 {
     font-size: 36px;
   }
+  .image iframe {
+    width: 482px;
+    height: 267px;
+  }
 }
 
 @media screen and (max-width: 768px){
   .wrapper .container {
     flex-direction: column;
+    padding: 0 20px;
   }
   .content {
     width: 100%;
     order: 2;
+    height: auto;
+    min-height: auto;
+  }
+  .logo {
+    margin-top: 24px;
   }
   input {
     max-width: 286px
   }
+  h1 {
+    font-size: 28px;
+  }
   .image {
-    display: none;
+    display: none; 
+  }
+  iframe.mobile {
+    display: block;
+    width: 100%;
+    height: 332px;
+  }
+  .form {
+    margin-top: 24px;
+  }
+  .footer {
+    position: initial;
+    margin-top: 24px;
+  }
+  .footer p {
+    margin-bottom: 12px;
   }
 }
 
@@ -45,5 +78,8 @@
   }
   .footer {
     bottom: 20px;
+  }
+  iframe.mobile {
+    height: 200px;
   }
 }

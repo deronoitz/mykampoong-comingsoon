@@ -53,7 +53,7 @@ h1 {
   margin-top: -50px;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1280px;
   width: 100%;
   margin: 0 auto;
 }
@@ -89,4 +89,15 @@ input {
   object-fit: cover;
   border-radius: 8px;
   overflow: hidden;
+}
+
+.image iframe {
+  border-radius: 8px;
+  overflow: hidden;
+  width: 656px;
+  height: 363px;
+}
+
+iframe.mobile {
+  display: none;
 }
